@@ -1,5 +1,4 @@
 from selenium import webdriver
-import pyautogui as pg ,time
 from getpass import getpass
 
 # option 1: if you want to don't want to write email and password every time you login,

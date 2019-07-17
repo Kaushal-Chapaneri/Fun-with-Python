@@ -18,7 +18,7 @@ pawd = ''  # write password here between comma.
 
 
 
-browser = webdriver.Chrome('C:\\Users\\admin\\Desktop\\chromedriver.exe')
+browser = webdriver.Chrome('C:\\Users\\admin\\Desktop\\chromedriver.exe')#write the path of chromedriver.exe, where you have kept it.
 
 browser.get('https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin')
 

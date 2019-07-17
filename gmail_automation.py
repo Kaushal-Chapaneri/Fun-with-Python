@@ -17,7 +17,7 @@ pawd = ''  # write password here between comma.
 #pawd = getpass('enter password:')
 
 
-browser = webdriver.Chrome('C:\\Users\\admin\\Desktop\\chromedriver.exe')
+browser = webdriver.Chrome('C:\\Users\\admin\\Desktop\\chromedriver.exe') #write the path of chromedriver.exe, where you have kept it. 
 
 browser.get('https://accounts.google.com/ServiceLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&osid=1&service=mail&ss=1&ltmpl=default&rm=false&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
 
